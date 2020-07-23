@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="counterBox">
+      <i class="fa fa-bars" aria-hidden="true" id="options"></i>
+      <div id="setCount">
+        <input type="range" id="maxMinutes" value="5" min="0" max="59" />
+        <input type="range" id="maxSeconds" value="0" min="0" max="59" />
+        <span class="maxDisplay" id="maxMinutesDisplay">05:</span>
+        <span class="maxDisplay" id="maxSecondsDisplay">00</span>
+      </div>
+      <h1 id="textLabel">Privado Timer</h1>
+      <h1 id="time"><span id="mm">00</span>:<span id="ss">00</span></h1>
+      <button id="button0">Start</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
